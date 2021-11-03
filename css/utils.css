@@ -1,0 +1,48 @@
+:root {
+    --main-bg-color: #1e9ea1;
+  }
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.mx-1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btn{
+    margin-left: 10px;
+    padding: 6px 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover{
+    color: whitesmoke;
+    background-color: var(--main-bg-color);
+}
+
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

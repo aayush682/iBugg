@@ -1,0 +1,38 @@
+.contact-content{
+    overflow: hidden;
+    height: 100vh;
+    /* background-color: rgba(217, 217, 251, 0.924); */
+    margin-top: 32px;
+    padding: 15px;
+    position: relative;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact-content::after{
+    content: "";
+    background-image: url(../img/m_25.jpg);
+    position: absolute;
+    top: 0;
+    width: 95%;
+    z-index: -1;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+}
+
+.contact-content h2{
+    margin-left: 10px;
+}
+
+.contact-form{
+}
+
+.form-box input, textarea{
+    width: 70vw;
+    padding: 10px 6px;
+    margin: 8px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: transparent;
+    opacity: 0.8;
+}

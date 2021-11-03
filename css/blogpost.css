@@ -1,0 +1,44 @@
+.post-img{
+    overflow: hidden;
+    margin-top: 15px;
+    background-size: contain;
+}
+.post-img img{
+    width: 100%;
+}
+.blog-post-content{
+    padding: 0px;
+}
+
+.blog-post-content h1{
+    padding-bottom: 20px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.blog-post-content p{
+    line-height: 180%;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row{
+    display: flex;
+}
+
+.more-post{
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+}
+
+.blogpost-meta{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.author-info{
+    margin: 12px 0;
+}
+.author-info div{
+    padding: 4px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
